@@ -57,6 +57,28 @@ Nesta estapa iremos avilar e entender as informações apresentadas neste datase
 - O que se destaca ao análisar as primeiras linhas do dataset;
 - Verificar se há a presença valores nulos, duplicados, outliers ou inconsistentes;
 - Realizar resumo estatístico dos atributos numéricos (mínimo, máximo, mediana, média, desvio-padrão, primeiro quartil, terceiro quartil e moda).
+- Visualizações:
+    - Análise de balanceamento do dataset das categorias de de contagem
+    - Histograma com a distribuição  das variáveis numéricas
+    - Boxplots para identificar outliers.
+ 
+  #3. Pré-processamento de dados
+  - Filtragem e limpeza do dataset
+  - Tratamento de valores nulos
+  - Verificando as Primeiras e as Últimas linhas do Dataset Filtrado e Limpo
+  - Tramento de Outliers
+  - Enconding: Transformando as colunas categóricas em números
+  - Separando o dataset em conjuntos de treino e teste
+  - Normalização
+  - Padronização
+  - Outras Transformações e Etapas de Pré-Processamento: Matriz de correlação com o dataset limpo
+
+  #4. Respondendo as Hipóteses
+  ## 4.2 Possíveis melhorias:
+     1 - Além do modelo de regressão para a previsão para prever o valor de um imóvel com base em suas característica, esse dataset poderia ser usado para realizar um modelo de clusterização para identificar diferentes áreas da cidade com características semelhantes.
+  ## 4.3 Conclusão
+  
+    
 
 
  
