@@ -74,7 +74,7 @@ Nesta estapa iremos avilar e entender as informações apresentadas neste datase
   - Normalização
   - Padronização
   - Outras Transformações e Etapas de Pré-Processamento: Matriz de correlação com o dataset limpo
-  - 
+    
 [Toda essa etapa está documentada no notebook](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb) 
 
 ## 4. Respondendo as Hipóteses
