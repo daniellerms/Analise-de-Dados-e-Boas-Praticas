@@ -62,14 +62,14 @@ Nesta estapa iremos avilar e entender as informações apresentadas neste datase
     - Histograma com a distribuição  das variáveis numéricas
     - Boxplots para identificar outliers.
 
-  Toda essa etapa está documentada no notebook: https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb
+  Toda essa etapa está documentada no notebook: [https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb]
  
 ## 3. Pré-processamento de dados
   - Filtragem e limpeza do dataset
   - Tratamento de valores nulos
   - Verificando as Primeiras e as Últimas linhas do Dataset Filtrado e Limpo
   - Tramento de Outliers
-  - Enconding: Transformando as colunas categóricas em números
+  - Encoding: Transformando as colunas categóricas em números
   - Separando o dataset em conjuntos de treino e teste
   - Normalização
   - Padronização
@@ -92,15 +92,17 @@ Toda essa etapa está documentada no notebook: https://github.com/daniellerms/An
 
 ## 5. Conclusão
   ### 4.1 Revisão do MVP
-      O objetivo desse trabalho foi realizar uma análise exploratória e pré-processamento em um dataset sobre dados de transações imobiliárias no Rio de Janeiro. Os dados foram preparados com o objetivo de prever o valor de um imóvel com base no metro quadrado, tipo de imóvel e bairro.
-      Durante a análise exploratória, percebemos alguns valores nulos, e uma forte presença de outliers, que foram evidênciados pelas análises estatíticas e visualizados pelo histograma com assimetria à direita e pelos outiliers no boxplot.
-      No pré processamento, foi necessário limitar a amostra a ser análisada, filtrando metro quadrado mínimo e máximo, valor de transação mínimo e máximo, tratamento de valores nulos e de outliers.
+      O objetivo desse trabalho foi realizar uma análise exploratória e pré-processamento completo em um dataset sobre dados de transações imobiliárias no Rio de Janeiro. Os dados foram preparados com o objetivo de prever o valor de um imóvel com base no metro quadrado, tipo de imóvel e bairro. Durante a análise exploratória, percebemos alguns valores nulos, e uma forte presença de outliers, que foram evidênciados pelas análises estatíticas e visualizados pelo histograma com assimetria à direita e pelos outiliers no boxplot. No pré processamento, foi necessário limitar a amostra a ser análisada, filtrando metro quadrado mínimo e máximo, valor de transação mínimo e máximo, tratamento de valores nulos e de outliers. Com isso, os dados estão prontos para alimentar algoritmos de previsão de preço.
       
   ### 4.2 Possíveis melhorias:
-     1 - Além do modelo de regressão para a previsão para prever o valor de um imóvel com base em suas característica, esse dataset poderia ser usado para realizar um modelo de clusterização para identificar diferentes áreas da cidade com características semelhantes.
-     2 - Poderiamos ter sido testadas outras hipóteses como:
+     1 - **Clusterização:** Além do modelo de regressão para a previsão para prever o valor de um imóvel com base em suas característica, esse dataset poderia ser usado para realizar um modelo de clusterização para identificar diferentes áreas da cidade com características semelhantes.
+     2 - **Novas Hipoteses:** Outras hipóteses poderiamo ter sido testadascomo:    
+             - As Olimpíadas na Barra Olimpíca gerou uma valorização sustentada ou apenas um pico temporário?
+             - O incentivo aos residênciais no centro e no Porto Maravilha estão sendo efetivas?
+    3- **Dados Externos:** integrar outras fontes de dados para cruzar as informações como IDH ou segurança.
      
-  ### 4.3 Conclusão
+  ### 4.3 Conclusão Final
+      O projeto validou as hipóteses de que variáveis como "tipo de imóvel" e "sazonalidade" são importantes no Rio de Janeiro. A preparação dos dados eliminou ruídos significativos e transformou um dataset bruto em uma base relevante para modelos de predição imobiliária, respeitando as particularidades de cada padrão construtivo e região da cidade.
   
     
 
