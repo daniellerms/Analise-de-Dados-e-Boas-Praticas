@@ -61,8 +61,11 @@ Nesta estapa iremos avilar e entender as informações apresentadas neste datase
     - Análise de balanceamento do dataset das categorias de de contagem
     - Histograma com a distribuição  das variáveis numéricas
     - Boxplots para identificar outliers.
+      
+Toda essa etapa está documentada no notebook:
+[Notebook Github](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb)
 
-[Toda essa etapa está documentada no notebook](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb)
+[Notebook Colab](https://colab.research.google.com/drive/1ViVjXcm268J-LcY87giyW8g1SsqRXtt1?usp=sharing)
  
 ## 3. Pré-processamento de dados
   - Filtragem e limpeza do dataset
@@ -75,7 +78,10 @@ Nesta estapa iremos avilar e entender as informações apresentadas neste datase
   - Padronização
   - Outras Transformações e Etapas de Pré-Processamento: Matriz de correlação com o dataset limpo
     
-[Toda essa etapa está documentada no notebook](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb) 
+Toda essa etapa está documentada no notebook:
+[Notebook Github](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb)
+
+[Notebook Colab](https://colab.research.google.com/drive/1ViVjXcm268J-LcY87giyW8g1SsqRXtt1?usp=sharing)
 
 ## 4. Respondendo as Hipóteses
 A análise e o pré-processamento dos dados de transações imobiliárias demonstraram a importância de tratar e filtrar o dataset antes de qualquer interpretação. O conjunto de dados original apresentava ruídos, como imóveis comerciais e registros com áreas irreais, que foram saneados para permitir uma análise focada no mercado residencial. A exploração revelou correlações claras entre a área construída e o valor de mercado, além de expor distorções fiscais em bairros de alto padrão. As etapas de limpeza e categorização por tipologia foram fundamentais para entender que o mercado não é homogêneo, garantindo que as conclusões reflitam a realidade das transações na cidade.
@@ -86,7 +92,10 @@ A partir da análise realizada, as hipóteses levantadas foram validadas:
 3. **A sazonalidade afeta o volume de vendas na cidade de uma maneira gera?** Sim. Os dados mostraram um ciclo de mercado que começa em baixa no verão e Carnaval, apresenta um pico de recuperação em Março e cresce de forma consistente no segundo semestre, atingindo o ápice em Outubro.
 4. **Há diferença entre o preço do metro quadrado entre imóveis de tipologias diferentes?** Sim. O metro quadrado de um apartamento padrão é quase o triplo do valor de uma casa. Além disso, o padrão construtivo (popular/proletário vs. padrão) influencia o preço tanto quanto a localização.
 
-[Toda essa etapa está documentada no notebook](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb) 
+Toda essa etapa está documentada no notebook:
+[Notebook Github](https://github.com/daniellerms/Analise-de-Dados-e-Boas-Praticas/blob/main/MVP_Analise_de_Dados_e_Boas_Praticas.ipynb)
+
+[Notebook Colab](https://colab.research.google.com/drive/1ViVjXcm268J-LcY87giyW8g1SsqRXtt1?usp=sharing)
 
 ## 5. Conclusão
 
